@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>268</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: (9, 255, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>КОНВЕРТОР ВАЛЮТ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="valute1">
+      <item>
+       <property name="text">
+        <string>Гривні</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Долари</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Юані</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Злотий</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Євро</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Фунт</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="start">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Convert">
+      <property name="text">
+       <string>КОНВЕРТУВАТИ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="valute2">
+      <item>
+       <property name="text">
+        <string>Гривні</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Долари</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Юані</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Злотий</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Євро</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Фунт</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="End">
+      <property name="maximumSize">
+       <size>
+        <width>1600</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>268</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
